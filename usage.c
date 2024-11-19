@@ -13,7 +13,7 @@ int fn_(void *a, void *b, long sz)
   return 0;
 }
 
-#define fn(a, b) fn_(ptypecheck(a, b, a), ptypecheck(a, b, b), sizeof(*a))
+#define fn(a, b) fn_(ptypecheck(a, b, a), b, sizeof(*a))
 
 struct one { int x; };
 struct two { int x; };
