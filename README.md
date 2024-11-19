@@ -7,4 +7,3 @@ However, I think that this new method I just found (inspired by the `DeferLoop` 
 ## Improvements
 
 - I would like to be able to handle reference lvalues without requiring a different macro. This is not a hude deal, as the macro would only be used in a small number of function implementations, but still.
-- Also, the compiler messages are pretty verbose due to the nested macros, but are still better than most of the stuff you get from C++ template errors.
