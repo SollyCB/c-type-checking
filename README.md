@@ -1,4 +1,4 @@
-# c-type-checking
+# C Type Checking
 
 I like type safety, but I also like C. I hear STB talk a lot about typesafe C structures, particularly hash maps. My previous typesafe hash map is pretty ugly in implementation, but has pretty good usage.
 However, I think that this new method I just found (inspired by the `DeferLoop` implementation that I saw in the [raddebugger](https://github.com/EpicGamesExt/raddebugger) codebase) using the
